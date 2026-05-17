@@ -1,0 +1,10 @@
+llm:
+  provider: anthropic  # anthropic | openai
+  model: claude-sonnet-4-6
+  api_key_env: ANTHROPIC_API_KEY
+  max_tokens: 4096
+
+data:
+  excel_file: data/sales_data.xlsx
+  sheet_name: null  # null = first sheet
+  table_name: sales  # SQL table name for the DataFrame
